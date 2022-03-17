@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.anuncio {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;   
+  text-align:center;
+}
+
+/* ESTILOS DEL TITULO */
+
+.title{
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.title p {
+    text-align: center;
+    font-family: 'Metal Mania';
+    font-size: 50px;
+}
+ /* ESTILOS DE BOTONES */
+
+.botonBuscar{
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/*  BARRA DE NAVEGACION */ 
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navContenedor{
+  border-color: rgb(78, 50, 50);
+  border-bottom: 1px solid rgb(167, 156, 156);
+  border-top: 1px solid rgb(167, 156, 156);
+  box-sizing: border-box;
+  height: 60px;
+  padding: 0 ;
+  background-color: rgb(255, 255, 255);
+  
+  align-items: center;
+  position:sticky;
+  top: 0 ;
+}
+
+.nav-menu {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tusCompras{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+
+
+/* estilos galeria pag inicio */
+
+
+  
+  .containerGaleria {
+    padding-bottom: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-gap: 30px;
+  }
+  
+  .item {
+    cursor: pointer;
+    align-self: auto;
+  }
+  
+  .item-img {
+   
+    max-height: 100%;
+    max-width: 100%;
+    display:block;
+  }
+
+  .item-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  /* ESTILOS DEL FOOTER */
+
+.footer {
+  background-color: #f5f3f4;
+  color: black;
+  border-bottom: 1px solid rgb(167, 156, 156);
+  border-top: 1px solid rgb(167, 156, 156);
+
+}
+.footerContainer {
+  height: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerContainer h2 {
+  font-size: 20px;
+  font-family:Helvetica (sans-serif);
+}
+
+.pagos{
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  
+}
+
+
+
+.contactos {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ig{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.comunicacion {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* FOOTER BUTTOM */
+
+.footerButtom {
+  height: 1%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+} 
+
+.footerButtom h3 {
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
